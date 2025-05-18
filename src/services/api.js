@@ -1,7 +1,7 @@
 // services/api.js
 import axios from 'axios';
 
-const API_URL = ' https://testappcrudifyex.pythonanywhere.com/api/v1/ ';
+const API_URL = ' https://testappcrudifyex.pythonanywhere.com/api/v1/';
 
 export const getProducts = async () => {
   try {
