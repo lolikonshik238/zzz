@@ -105,7 +105,7 @@ const addToCart = (productId, quantity, image, name, description, price) => {
                   <div className="line-on-card"></div>
                   <img src={product.image || require("../assets/images/jew.png")} alt={product.name} className="product-card-img"/>
                   <h3>{product.name}</h3>
-                  <p>{product.price / 521} USD | {product.price} ₸</p>
+                 <p>{(product.price / 521).toFixed(2)} USD | {product.price} ₸</p>
                   <a href="#">show similar</a>
                 </div>
               ))
