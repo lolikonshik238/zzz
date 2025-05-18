@@ -666,10 +666,9 @@ li{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-family: 'Georgia', serif;
   text-align: center;
-
   margin-top: 130px;
   position: fixed;
-  margin-left: 1650px;
+  margin-left: 1550px;
 }
 
 .cart-summary h2 {
