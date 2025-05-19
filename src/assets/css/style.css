@@ -73,8 +73,26 @@ body {
 }
 .html-css{
   background-color: hsla(208, 42%, 91%, 1);
-  height: 100vh;
+    min-height: 100vh; /* займет минимум высоту экрана, но может расти */
+  display: flex;
+  flex-direction: column;
 }
+
+.html-css {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.basket-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
 .button{
   display: inline-block;
   background-color: var(--first-color);
@@ -143,7 +161,7 @@ body {
   border: 2px solid hsla(0, 0%, 0%, 1);
   border-radius: 10px;
   color: hsla(0, 0%, 0%, 1);
-  width: 120px;
+  width: 150px;
   height: 15px;
   text-align: center;
   display: flex;
@@ -518,6 +536,11 @@ li{
   gap: 20px;
   padding: 20px;
   background-color: hsla(208, 42%, 91%, 1);
+
+  flex-grow: 1; /* займёт всё доступное пространство */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .basket-card{
@@ -659,7 +682,7 @@ li{
 
 .cart-summary {
   width: 300px;
-  height: 300px;
+  height: auto;
   background: white;
   border-radius: 12px;
   padding: 20px;
