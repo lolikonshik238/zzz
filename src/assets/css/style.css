@@ -72,7 +72,6 @@ body {
 
 }
 .html-css{
-  background-color: hsla(208, 42%, 91%, 1);
     min-height: 100vh; /* займет минимум высоту экрана, но может расти */
   display: flex;
   flex-direction: column;
@@ -535,7 +534,7 @@ li{
   display: flex;
   gap: 20px;
   padding: 20px;
-  background-color: hsla(208, 42%, 91%, 1);
+
 
   flex-grow: 1; /* займёт всё доступное пространство */
   display: flex;
